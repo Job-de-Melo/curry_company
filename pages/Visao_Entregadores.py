@@ -10,7 +10,7 @@ import folium
 from streamlit_folium import folium_static
 
 #import dataset
-df_raw = pd.read_csv("dataset\train.csv")
+df_raw = pd.read_csv("dataset/train.csv")
 
 
 #-----------------------------------tratamento dos dados---------------------------------------
@@ -76,7 +76,7 @@ df['Time_taken(min)'] = df['Time_taken(min)'].astype(int)
 st.markdown('# Marketplace - Visão Entregadores')
 
 #imagem - Biblioteca PIL
-image_path  = 'images\logo.png'
+image_path  = 'images/logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 
