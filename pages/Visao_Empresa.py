@@ -77,7 +77,7 @@ st.set_page_config(page_title='Visão Entregadores', layout='wide')
 st.markdown('# Marketplace - Visão Cliente')
 
 #imagem - Biblioteca PIL
-image_path  = 'images\logo.png'
+image_path  = 'images/logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width=120)
 
